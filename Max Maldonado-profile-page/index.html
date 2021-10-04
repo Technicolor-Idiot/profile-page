@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <!-- set the character set -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- first step to a responsive site -->
+    <title>Flexbox Styling</title>
+
+    <!-- FONT AWESOME -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Your styles should be called here -->
+
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+<div class:"container">
+
+      <!-- <section class="photo"> -->
+<section class="altbackground">
+
+  <section class="flex">
+<figure>
+  <h1>Photography <span class="credit">noun</span></h1>
+
+<p>pho·​tog·​ra·​phy | \ fə-ˈtä-grə-fē\</p>
+
+  <h3>: the art or process of producing images by the action of radiant energy and especially light on a sensitive surface (such as film or an optical sensor)</h1>
+
+    <figure>
+          <img class="main_img" src="images/Bed7.jpg">
+        <figcaption>Finding quiet on the streets of NYC is hard. Takes a lot of walking, a lot of looking, and a LOT of patience.</figcaption>
+</figure>
+    </section>
+
+      <section class= "flex">
+        <figure>
+        <p>When I have my camera, it is imperative that I disappear. I want my subject to never know that I exist.
+        </p>
+        <p>In their world, they are the only person that exists. Something that I want them to continue thinking.
+        </p>
+      </figure>
+      </section>
+
+<section>
+  <figure>
+  <h3 class="top" class="flex-hed">Many of my favorite moments were with people that I never even spoke to.</h3> <!-- broke the subhed out of text to correct alignment based on mock -->
+    </figure>
+</figure>
+</section>
+
+
+        <!-- flex box refers to the box that contains the "flexed" content -->
+          <!-- each img_holder is flexed content -->
+          <section class="flex">
+
+          <section class="img_holder">
+            <img class="sub_image" src="images/Edited-3.jpg"> <!-- You should crop your images to be the same size before using them, otherwise, even with flex box, they come out uneven -->
+            <img class="sub_image" src="images/Edited.jpg">
+
+            <figcaption class="sub_cap">Colors <span class="credit">Credit:Max Maldonado</span></figcaption>
+
+          <section class="sub_text">
+        <p>Sometimes the colors of the streets express themselves. Drawing you in to the scene.</p>
+        </section>
+      </section>
+
+        <section class="img_holder">
+            <img class="sub_image" src="images/Edited-2.jpg">
+            <img class="sub_image" src="images/Bed4.jpg">
+            <figcaption class="sub_cap">Shadows <span class="credit">Credit:Max Maldonado</span></figcaption>
+
+          <section class="sub_text">
+            <p>Other times moments come out of the shadows. Revealing themselves for second before dissapearing again.</p>
+          </section>
+        </section>
+
+        <section class="img_holder">
+          <figure>
+            <img class="sub_image" src="images/Edited-4.jpg">
+            <img class="sub_image" src="images/Bed3.jpg">
+            <figcaption class="sub_cap">Hidden <span class="credit">Credit:Max Maldonado</span></figcaption>
+
+          <section class="sub_text">
+            <p>And sometimes you don't want them to reveal themselves at all. Sometimes the mystery is better than the answer.</p>
+          </figure>
+          </section>
+        </section>
+      </section>
+
+        <section class="flex">
+          <figure>
+            <p>
+              Photography has always been my therapy. It gave me a chance to look at the world differently, to see the many facets of it through one eye. As a photograper I've spent hours alone, walking and taking in the world.
+            </p>
+            <p>
+              Some see it as a lonely practice. Walking for hours by yourself. However, it is no less different from a painter at a canvas or a ceramacist making a sculpture. Like Photography, these forms require a person to be alone.
+            </p>
+            <p>
+              It let me also know myself. To know what I like and what I am drawn towards. To notice one second where you see something incredible while others might see nothing at all. It is those little moments that I live for.
+            </p>
+          </figure>
+        </section>
+
+        <section>
+          <figure>
+            <p>If you would like to see even more of my work you can find it on my
+              <a href="https://www.maldonadomedia.com">website.</a>
+             </p>
+          </figure>
+        </section>
+<!--- Profile Image -->
+<section>
+    <section class="flex" class="top">
+
+      <figure>
+      <h3>Hi! My name is Max Maldonado and I like to take pictures. Lots of pictures.</h3>
+      <h5>Originally a Florida baby, I have recently traded the swamps for the concrete of New York City.</h5>
+</figure>
+    </section>
+
+    <section>
+      <figure class="img_holder">
+            <img class="profile_img" src="images/MaxM.jpg">
+            <figcaption>Hi! My name is Max! I enjoy long walks on the beach, talking to the demons that hide at the edge of my vision, and choclate chip cookies! <span class="credit">Credit: Alex Maldonado</span></figcaption>
+      </figure>
+    </section>
+  </section>
+    <!-- When you get to using javascript, you'll want to link to it at the bottom of the document, still inside the body. That's for later. -->
+    <!-- the jQuery library. You need this to be able to use jQuery ($) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Your javascript should be called here -->
+</div>
+  </body>
+
+</html>
